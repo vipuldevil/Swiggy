@@ -1,0 +1,313 @@
+* {
+  margin: 10;
+  padding: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-weight: 300;
+  color: #282c3f;
+}
+
+.s1 {
+  /* background-color: red; */
+  display: flex;
+}
+.s2 {
+  width: 55%;
+  /* background-color: lawngreen; */
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 3.2em;
+}
+
+.logo ul {
+  margin: auto 2em;
+}
+
+.logo ul li {
+  display: inline;
+  padding: 0.6em;
+  font-size: 1.5em;
+}
+
+.logo ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo ul li a:hover {
+  color: orange;
+}
+.logo button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: black;
+}
+/*Heading*/
+.heading-1 {
+  display: inline;
+  line-height: 1.5px;
+}
+
+.heading-1 h1 {
+  font-size: 50px;
+}
+
+.heading-1 p {
+  font-size: 30px;
+}
+
+/*Search*/
+
+.search-l {
+  background-color: #fff;
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  padding: 5px 5px;
+  border: 1px solid orange;
+}
+
+.search-2 {
+  width: 90%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-3 {
+  width: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: 0;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
+
+.b1 button {
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  text-size-adjust: inherit;
+  font-size: 13px;
+  margin: 5px 6px;
+  cursor: pointer;
+  background-color: orange;
+}
+
+/*Heading 2*/
+.heading-2 {
+  display: inline;
+  line-height: 0.5px;
+}
+
+.heading-2 h5 {
+  font-size: 30px;
+}
+
+.heading-2 p {
+  font-size: 15px;
+}
+
+.Bihar {
+  font-family: cursive;
+}
+
+.s3 {
+  margin-top: 0px;
+  width: 45%;
+  /* background-color: black; */
+  transform: rotate(0deg);
+}
+.s3 .image {
+  margin-top: 0px;
+}
+.s3 .image img {
+  margin: 0px 0px 0px 0px;
+  width: 550px;
+  height: 650px;
+}
+
+/*Order Section */
+.order {
+  background-color: #2b1e16;
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.order-img {
+  display: inline-block;
+}
+
+.order-img img {
+  width: 80px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.hp h4 {
+  margin: 0px 60px 0px 50px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.hp p {
+  margin: 0px 60px 0px 50px;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+}
+
+/*Get Apps*/
+.Apps {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 1200px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.aph h1 {
+  margin: 200px 0px 0px 80px;
+  font-size: 40px;
+}
+
+.aph p {
+  margin: 00px 0px 0px 80px;
+  font-size: 20px;
+  width: 400px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #7e808c;
+  line-height: 1.2;
+}
+
+.aph img {
+  display: inline-block;
+  margin: 00px 0px 0px 80px;
+  padding: 10px;
+  width: 25%;
+  height: 5%;
+  overflow: hidden;
+}
+
+.mimg img {
+  margin: 00px 0px 0px 80px;
+}
+
+/*Explorer*/
+.container {
+  background-color: black;
+  width: 100%;
+}
+
+.company {
+  color: grey;
+  margin: 40px 0px 0px 40px;
+  display: grid;
+  /* grid-gap: 10px; */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.company li h6 {
+  color: grey;
+  font-size: 20px;
+}
+
+.company li {
+  font-size: 15px;
+  padding-left: 30px;
+  list-style: none;
+  margin-bottom: 20px;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.company img {
+  display: inline-block;
+  margin: 40px 0px 0px 40px;
+  padding: 10px;
+  width: 105%;
+  height: 25%;
+}
+
+.Deliver {
+  background-color: black;
+  width: 100%;
+}
+
+.Deliver li {
+  margin-top: 2px;
+}
+
+.d1 li h5 {
+  margin-top: 2px;
+  color: grey;
+}
+
+.d1 li {
+  color: grey;
+  margin: 0px 0px 0px 40px;
+  display: inline-block;
+  color: white;
+  /* grid-gap: 10px; */
+}
+
+/*footer*/
+.content {
+  display: flex;
+}
+
+.content img {
+  margin-top: 30px;
+  width: 160px;
+}
+
+.content p {
+  margin-top: 10px;
+  margin-left: 400px;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.content h3 {
+  margin-top: 10px;
+  margin-left: 400px;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 20px;
+}
